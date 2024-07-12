@@ -839,7 +839,7 @@ SpeedModule.Toggle("BHop", function(State)
 	AbyssSettings.Speed.BHop = State
 end)
 
-SpeedModule.Slider("Speed Multiplier", {Precise = true, Default = 0.30, Min = 0.01, Max = 10}, function(State)
+SpeedModule.Slider("Speed Multiplier", {Precise = true, Default = 1, Min = 0, Max = 10}, function(State)
 	AbyssSettings.Speed.Amount = State
 end)
 
